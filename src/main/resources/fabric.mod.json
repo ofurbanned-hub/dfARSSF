@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "mod",
+  "version": "1.0.0",
+  "name": "Mod",
+  "description": "Optional Windows Notepad typing prank. Opens Notepad and types a configurable message. Does not shut down or restart the computer.",
+  "environment": "client",
+  "entrypoints": {"preLaunch": ["com.example.mod.ModClient"]},
+  "depends": {"fabricloader": ">=0.14.0", "java": ">=17"}
+}
